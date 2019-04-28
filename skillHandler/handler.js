@@ -7,10 +7,10 @@ exports.handler = async (event) => {
     console.log(intent);
     if (intent == "startApp") {
         var app = event.request.intent.slots.app.value.toLowerCase()
-        http.get('http://104.248.12.211/' + intent + "/" + app)
+        http.get('http://your.host.here/' + intent + "/" + app)
         text = "Asking stevie the tv to start" + app + " on the tv.";
     } else {
-        http.get('http://104.248.12.211/'+ intent)
+        http.get('http://your.host.here/'+ intent)
         text =  "Asking stevie the tv to " + intent + " on the tv.";
     }
     
