@@ -1,0 +1,14 @@
+{
+  "name": "lg-tv-remote",
+  "version": "1.0.0",
+  "description": "http endpoint for use with alexa/google home to control lg tv",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
